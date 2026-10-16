@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Boot Splash",
+    "description": "Plays a HUD-style boot sequence over the Web GUI at startup; click anywhere to skip."
+  }
+}

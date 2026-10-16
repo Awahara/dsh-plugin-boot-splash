@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fe6ff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="48" height="48" rx="10" fill="#02050b"/>
+  <circle cx="24" cy="24" r="20" fill="url(#glow)"/>
+  <path d="M24 6 L39.6 15 L39.6 33 L24 42 L8.4 33 L8.4 15 Z" stroke="url(#g)" stroke-width="1.6" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M24 11.5 L34.9 17.75 L34.9 30.25 L24 36.5 L13.1 30.25 L13.1 17.75 Z" stroke="#22d3ee" stroke-width="0.9" stroke-dasharray="2 3" opacity="0.6"/>
+  <path d="M16.4 25.9c3.9 0.9 6.6-0.9 8.1-3.1 1.5-2.2 4-3.6 6.9-2.9-0.9 3.9-3.4 6.4-6.6 6.9-2.3 0.4-4.6-0.3-6.4-1.6-0.7 1-1.5 1.9-2.4 2.5-0.1-0.7-0.4-1.3-0.8-1.8z" fill="#a9f1ff"/>
+  <circle cx="24" cy="24" r="21.2" stroke="#22d3ee" stroke-width="1" stroke-dasharray="1 5" opacity="0.5"/>
+</svg>

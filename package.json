@@ -1,0 +1,43 @@
+{
+  "name": "dsh-plugin-boot-splash",
+  "version": "1.0.0",
+  "description": "科技感开屏动画：DSH Web GUI 启动时播放一段 HUD 风格的引导序列",
+  "icon": "./icon.svg",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "icon.svg",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "lib/index.js",
+    "lib/client.js"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "client-ui",
+    "splash"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

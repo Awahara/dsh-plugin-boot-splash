@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "开屏动画",
+    "description": "启动 Web GUI 时播放一段 HUD 风格的科技感引导序列，可点击跳过。"
+  }
+}

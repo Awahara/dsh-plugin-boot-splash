@@ -1,0 +1,10 @@
+# Bundle patch for dsh-plugin-boot-splash.
+#
+# The row mounts this package's own host half; `dsh.client` in package.json
+# turns the same package into the browser bundle served under /plugins, so one
+# package carries both halves. The browser half registers itself into the
+# layout's root-scoped `shell.overlay` list slot and plays the intro there.
+
+- insert:
+    - id: ui-boot-splash
+      name: 'dsh-plugin-boot-splash'

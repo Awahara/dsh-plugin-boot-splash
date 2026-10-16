@@ -1,0 +1,11 @@
+# Build artifacts
+*.tgz
+
+# Dependencies and tooling
+node_modules/
+.pnpm-store/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
